@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMaster - Landing Page</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .hero {
+            background-color: #17a2b8;
+            color: white;
+            padding: 80px 0;
+        }
+        .features-icons {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        .testimonial-section {
+            padding: 60px 0;
+            background-color: #e9ecef;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CodeMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to CodeMaster</h1>
+            <p class="lead">Your platform for coding challenges, learning, and growth.</p>
+            <a href="#register" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Key Features Section -->
+    <section class="features-icons text-center">
+        <div class="container">
+            <h2 class="display-4 mb-4">Key Features</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-code-slash" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5>Coding Challenges</h5>
+                    <p>Enhance your coding skills with regular challenges designed to push your limits.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-trophy" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5>Leaderboards</h5>
+                    <p>Compete with other developers and climb up the leaderboard for recognition.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-journal-bookmark" style="font-size: 3rem;"></i>
+                    </div>
+                    <h5>Tutorials</h5>
+                    <p>Learn from comprehensive tutorials that cover various coding topics and languages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section text-center">
+        <div class="container">
+            <h2 class="display-4 mb-4">What Our Users Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="lead">"CodeMaster helped me improve my coding skills quickly. The challenges are tough, but rewarding!"</p>
+                        <p>- John Doe</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="lead">"I love the tutorials and how the platform guides me through complex coding concepts step-by-step."</p>
+                        <p>- Jane Smith</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial">
+                        <p class="lead">"The leaderboards keep me motivated to keep coding and learning every day. Great community!"</p>
+                        <p>- Mark Lee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="call-to-action text-center py-5">
+        <div class="container">
+            <h2 class="display-4 mb-4">Ready to Get Started?</h2>
+            <p>Join the CodeMaster community today and start improving your coding skills!</p>
+            <a href="#register" class="btn btn-primary btn-lg">Join Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2025 CodeMaster. All Rights Reserved.</p>
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li><a href="about.html" class="text-white mx-3">About</a></li>
+                <li><a href="contact.html" class="text-white mx-3">Contact</a></li>
+                <li><a href="privacy_policy.html" class="text-white mx-3">Privacy Policy</a></li>
+            </ul>
+            <div>
+                <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap 5 JS and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* Custom styles (optional) */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #17a2b8;
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    font-size: 14px;
+}
+
+
+.hero {
+    background-color: #28a745;
+    color: white;
+    padding: 80px 0;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-content {
+    margin-top: 40px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
